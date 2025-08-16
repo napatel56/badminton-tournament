@@ -1,0 +1,113 @@
+{
+    "Court#1": 
+        [
+           {
+               "game_no": "Game #1",
+               "teams": "A2 Vs A3",
+               "date_time": "Sept 28 @ 2.15 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #2",
+               "teams": "B2 Vs B3",
+               "date_time": "Sept 28 @ 2.30 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #3",
+               "teams": "C1 Vs C4",
+               "date_time": "Sept 28 @ 2.45 PM",
+               refree: ""                
+           },
+           {
+               "game_no": "Game #4",
+               "teams": "A1 Vs A4",
+               "date_time": "Sept 28 @ 3.00 PM", 
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #5",
+               "teams": "C2 Vs C3",
+               "date_time": "Sept 28 @ 3.15 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #6",
+               "teams": "B1 v/s B4",
+               "date_time": "Sept 28 @ 3.30 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #7",
+               "teams": "A1 v/s A3",
+               "date_time": "Sept 28 @ 3.45 PM", 
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #8",
+               "teams": "B2 v/s B4",
+               "date_time": "Sept 28 @ 4.00 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #9",
+               "teams": "C1 Vs C3",
+               "date_time": "Sept 28 @ 4.15 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #10",
+               "teams": "A2 Vs A4",
+               "date_time": "Sept 28 @ 4.30 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #11",
+               "teams": "B1 Vs B3",
+               "date_time": "Sept 28 @ 4.45 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #12",
+               "teams": "C2 Vs C4",
+               "date_time": "Sept 28 @ 5.00 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #13",
+               "teams": "A1 Vs A2",
+               "date_time": "Sept 28 @ 5.30 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #14",
+               "teams": "B1 Vs B2",
+               "date_time": "Sept 28 @ 5.45 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #15",
+               "teams": "C1 Vs C2",
+               "date_time": "Sept 28 @ 6.00 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #16",
+               "teams": "A3 Vs A4",
+               "date_time": "Sept 28 @ 6.15 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #17",
+               "teams": "B3 Vs B4",
+               "date_time": "Sept 28 @ 6.30 PM",
+               "refree": ""                
+           },
+           {
+               "game_no": "Game #18",
+               "teams": "C3 Vs C4",
+               "date_time": "Sept 28 @ 6.45 PM",
+               "refree": ""                
+           }
+    ]
+}

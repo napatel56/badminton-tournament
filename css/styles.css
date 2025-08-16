@@ -1,0 +1,61 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f0f4ff;
+  color: #1e3a8a;
+  margin: 0;
+  padding: 1rem;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.tabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.tab-btn {
+  background: white;
+  border: 1px solid #1e3a8a;
+  color: #1e3a8a;
+  padding: 0.5rem 1rem;
+  margin: 0 0.25rem 0.5rem 0.25rem;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.tab-btn.active,
+.tab-btn:hover {
+  background: #1e3a8a;
+  color: white;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto 3rem auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+}
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background: #1e3a8a;
+  color: white;
+}
+tbody tr:hover {
+  background-color: #f0f4ff;
+}
+@media (max-width: 600px) {
+  th, td {
+    padding: 0.5rem 0.5rem;
+    font-size: 0.9rem;
+  }
+}

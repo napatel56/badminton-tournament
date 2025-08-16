@@ -1,0 +1,32 @@
+{
+  "Group A": [
+    { "prefix": "A1", "team": "Team Alpha", "org": "Masjid Omar" },
+    { "prefix": "A2", "team": "Team Beta", "org": "Masjid Bilal" },
+    { "prefix": "A3", "team": "Team Gamma", "org": "Islamic Center" }
+  ],
+  "Group B": [
+    { "prefix": "B1", "team": "Team Delta", "org": "Masjid Noor" },
+    { "prefix": "B2", "team": "Team Epsilon", "org": "Masjid Quba" },
+    { "prefix": "B3", "team": "Team Zeta", "org": "Community Hall" }
+  ],
+  "Group C": [
+    { "prefix": "C1", "team": "Team Eta", "org": "Masjid Aisha" },
+    { "prefix": "C2", "team": "Team Theta", "org": "Masjid Salah" },
+    { "prefix": "C3", "team": "Team Iota", "org": "Islamic Assoc." }
+  ],
+  "Group D": [
+    { "prefix": "D1", "team": "Team Kappa", "org": "Masjid Rahma" },
+    { "prefix": "D2", "team": "Team Lambda", "org": "Masjid Al-Huda" },
+    { "prefix": "D3", "team": "Team Mu", "org": "Muslim Youth Org" }
+  ],
+  "Group E": [
+    { "prefix": "E1", "team": "Team Nu", "org": "Masjid Tawheed" },
+    { "prefix": "E2", "team": "Team Xi", "org": "Masjid Ar-Rahman" },
+    { "prefix": "E3", "team": "Team Omicron", "org": "Islamic Society" }
+  ],
+  "Group F": [
+    { "prefix": "F1", "team": "Team Pi", "org": "Masjid Usman" },
+    { "prefix": "F2", "team": "Team Rho", "org": "Masjid An-Nur" },
+    { "prefix": "F3", "team": "Team Sigma", "org": "Islamic Foundation" }
+  ]
+}
