@@ -163,124 +163,131 @@
     </div>
 
     <!-- Rankings -->
-    <div style="margin-bottom:2rem; padding:1rem; background:white; border-radius:12px; box-shadow:0 3px 6px rgba(0,0,0,0.08); max-width:350px; margin:auto;">
-      <h3 style="color:#1e3a8a; margin-bottom:1rem; text-align:center;">🏅 Rankings for QF Games</h3>
+    <div style="display:flex; gap:2rem; padding:2rem; background:white; border-radius:12px; box-shadow:0 3px 6px rgba(0,0,0,0.08); max-width:1200px; margin:auto;">
 
-      <table style="width:100%; border-collapse:collapse; text-align:center; font-weight:bold;">
-        <tbody>
-          <tr style="background:#dbeafe;">
-            <td style="padding:0.75rem 0;">GT-R1</td>
-          </tr>
-          <tr style="background:#dbeafe;">
-            <td style="padding:0.75rem 0;">GT-R2</td>
-          </tr>
-          <tr style="background:#dbeafe;">
-            <td style="padding:0.75rem 0;">GT-R3</td>
-          </tr>
-          <tr style="background:#dbeafe;">
-            <td style="padding:0.75rem 0;">GT-R4</td>
-          </tr>
-          <tr style="background:#dbeafe;">
-            <td style="padding:0.75rem 0;">GT-R5</td>
-          </tr>
-          <tr style="background:#fef9c3;">
-            <td style="padding:0.75rem 0;">WC-R6</td>
-          </tr>
-          <tr style="background:#fde68a; color:#b45309;">
-            <td style="padding:0.75rem 0;">WC-R7</td>
-          </tr>
-          <tr style="background:#fde68a; color:#b45309;">
-            <td style="padding:0.75rem 0;">WC-R8</td>
-          </tr>
-        </tbody>
-      </table>
+  <!-- Rankings Column -->
+      <div style="flex:0 0 250px; background:#f9fafb; border-radius:12px; padding:1rem; display:flex; flex-direction:column; align-items:center;">
+        <h3 style="color:#1e3a8a; margin-bottom:1rem; text-align:center;">🏅 Rankings for QF Games</h3>
 
-      <p style="text-align:center; font-size:0.9rem; color:#555; margin-top:1rem;">
-        <span style="color:#1e40af; font-weight:bold;">GT-R</span>: Group top team overall<br>
-        <span style="color:#b45309; font-weight:bold;">WC-R</span>: Wildcard entry team overall
-      </p>
+        <table style="width:100%; border-collapse:collapse; font-weight:bold; text-align:center;">
+          <tbody>
+            <tr style="background:#dbeafe; height:50px;">
+              <td>GT-R1</td>
+            </tr>
+            <tr style="background:#dbeafe; height:50px;">
+              <td>GT-R2</td>
+            </tr>
+            <tr style="background:#dbeafe; height:50px;">
+              <td>GT-R3</td>
+            </tr>
+            <tr style="background:#dbeafe; height:50px;">
+              <td>GT-R4</td>
+            </tr>
+            <tr style="background:#dbeafe; height:50px;">
+              <td>GT-R5</td>
+            </tr>
+            <tr style="background:#fef9c3; height:50px;">
+              <td>WC-R6</td>
+            </tr>
+            <tr style="background:#fde68a; color:#b45309; height:50px;">
+              <td>WC-R7</td>
+            </tr>
+            <tr style="background:#fde68a; color:#b45309; height:50px;">
+              <td>WC-R8</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Legends on the side -->
+        <div style="margin-top:2rem; display:flex; flex-direction:column; gap:0.5rem; width:100%;">
+          <div style="display:flex; align-items:center; gap:0.5rem;">
+            <div style="width:20px; height:20px; background:#dbeafe; border-radius:4px;"></div>
+            <span style="font-size:0.9rem; color:#1e40af;">GT-R: Group top team overall</span>
+          </div>
+          <div style="display:flex; align-items:center; gap:0.5rem;">
+            <div style="width:20px; height:20px; background:#fde68a; border-radius:4px;"></div>
+            <span style="font-size:0.9rem; color:#b45309;">WC-R: Wildcard entry team overall</span>
+          </div>
+        </div>
     </div>
+    <!-- Bracket Column -->
+    <div style="flex:1;">
+        <!-- Use the same bracket HTML you had before here -->
+        <div style="padding:1rem;">
+          <!-- Knockout bracket code here (previous creative version with arrows) -->
+        </div>
+      </div>
+
+    </div>
+
     
     <!-- Knockout Bracket -->
-    <div style="padding:2rem; background:white; border-radius:12px; box-shadow:0 3px 6px rgba(0,0,0,0.08); max-width:1000px; margin:auto;">
-  <h3 style="color:#1e3a8a; text-align:center; margin-bottom:2rem;">🏆 Knockout Bracket</h3>
+    <div style="padding:2rem; background:white; border-radius:12px; box-shadow:0 3px 6px rgba(0,0,0,0.08); max-width:1200px; margin:auto;">
+      <h3 style="color:#1e3a8a; text-align:center; margin-bottom:2rem;">🏆 Knockout Bracket</h3>
 
-  <div class="bracket-flow" style="display:flex; justify-content:space-between; align-items:flex-start; font-family:Arial, sans-serif;">
+      <div style="display:flex; justify-content:space-between;">
 
-    <!-- Quarterfinals -->
-    <div class="round" style="display:flex; flex-direction:column; gap:40px; align-items:center;">
-      <div class="match" style="text-align:center;">
-        <div class="teams" style="display:flex; flex-direction:column; gap:5px;">
-          <div style="background:#dbeafe; padding:10px 15px; border-radius:8px; font-weight:bold; color:#1e40af;">GT-R1</div>
-          <div style="background:#fde68a; padding:10px 15px; border-radius:8px; font-weight:bold; color:#b45309;">WC-R8</div>
+        <!-- Quarterfinals -->
+        <div class="round" style="display:flex; flex-direction:column; gap:50px; align-items:center;">
+          <div style="display:flex; flex-direction:column; gap:5px; text-align:center;">
+            <div style="background:#dbeafe; padding:10px 15px; border-radius:8px; font-weight:bold; color:#1e40af;">GT-R1</div>
+            <div style="background:#fde68a; padding:10px 15px; border-radius:8px; font-weight:bold; color:#b45309;">WC-R8</div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:5px; text-align:center;">
+            <div style="background:#dbeafe; padding:10px 15px; border-radius:8px; font-weight:bold; color:#1e40af;">GT-R3</div>
+            <div style="background:#fde68a; padding:10px 15px; border-radius:8px; font-weight:bold; color:#b45309;">WC-R6</div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:5px; text-align:center;">
+            <div style="background:#dbeafe; padding:10px 15px; border-radius:8px; font-weight:bold; color:#1e40af;">GT-R2</div>
+            <div style="background:#fde68a; padding:10px 15px; border-radius:8px; font-weight:bold; color:#b45309;">WC-R7</div>
+          </div>
+          <div style="display:flex; flex-direction:column; gap:5px; text-align:center;">
+            <div style="background:#dbeafe; padding:10px 15px; border-radius:8px; font-weight:bold; color:#1e40af;">GT-R4</div>
+            <div style="background:#dbeafe; padding:10px 15px; border-radius:8px; font-weight:bold; color:#1e40af;">GT-R5</div>
+          </div>
         </div>
-        <div style="margin:5px 0; font-size:1.2rem;">➡️</div>
-        <div style="background:#93c5fd; padding:10px 15px; border-radius:8px; font-weight:bold; color:white;">QF1 Winner</div>
-      </div>
 
-      <div class="match" style="text-align:center;">
-        <div class="teams" style="display:flex; flex-direction:column; gap:5px;">
-          <div style="background:#dbeafe; padding:10px 15px; border-radius:8px; font-weight:bold; color:#1e40af;">GT-R3</div>
-          <div style="background:#fde68a; padding:10px 15px; border-radius:8px; font-weight:bold; color:#b45309;">WC-R6</div>
+        <!-- Arrow Column -->
+        <div class="arrows" style="display:flex; flex-direction:column; justify-content:space-between; gap:55px; font-size:1.5rem; text-align:center;">
+          <div>➡️</div>
+          <div>➡️</div>
+          <div>➡️</div>
+          <div>➡️</div>
         </div>
-        <div style="margin:5px 0; font-size:1.2rem;">➡️</div>
-        <div style="background:#93c5fd; padding:10px 15px; border-radius:8px; font-weight:bold; color:white;">QF2 Winner</div>
-      </div>
 
-      <div class="match" style="text-align:center;">
-        <div class="teams" style="display:flex; flex-direction:column; gap:5px;">
-          <div style="background:#dbeafe; padding:10px 15px; border-radius:8px; font-weight:bold; color:#1e40af;">GT-R2</div>
-          <div style="background:#fde68a; padding:10px 15px; border-radius:8px; font-weight:bold; color:#b45309;">WC-R7</div>
-        </div>
-        <div style="margin:5px 0; font-size:1.2rem;">➡️</div>
-        <div style="background:#93c5fd; padding:10px 15px; border-radius:8px; font-weight:bold; color:white;">QF3 Winner</div>
-      </div>
-
-      <div class="match" style="text-align:center;">
-        <div class="teams" style="display:flex; flex-direction:column; gap:5px;">
-          <div style="background:#dbeafe; padding:10px 15px; border-radius:8px; font-weight:bold; color:#1e40af;">GT-R4</div>
-          <div style="background:#dbeafe; padding:10px 15px; border-radius:8px; font-weight:bold; color:#1e40af;">GT-R5</div>
-        </div>
-        <div style="margin:5px 0; font-size:1.2rem;">➡️</div>
-        <div style="background:#93c5fd; padding:10px 15px; border-radius:8px; font-weight:bold; color:white;">QF4 Winner</div>
-      </div>
-    </div>
-
-    <!-- Semifinals -->
-    <div class="round" style="display:flex; flex-direction:column; gap:120px; align-items:center;">
-      <div class="match" style="text-align:center;">
-        <div class="teams" style="display:flex; flex-direction:column; gap:5px;">
+        <!-- QF Winners Column -->
+        <div class="qf-winners" style="display:flex; flex-direction:column; gap:50px; align-items:center;">
           <div style="background:#93c5fd; padding:10px 15px; border-radius:8px; font-weight:bold; color:white;">QF1 Winner</div>
           <div style="background:#93c5fd; padding:10px 15px; border-radius:8px; font-weight:bold; color:white;">QF2 Winner</div>
-        </div>
-        <div style="margin:5px 0; font-size:1.2rem;">➡️</div>
-        <div style="background:#60a5fa; padding:10px 15px; border-radius:8px; font-weight:bold; color:white;">SF1 Winner</div>
-      </div>
-
-      <div class="match" style="text-align:center;">
-        <div class="teams" style="display:flex; flex-direction:column; gap:5px;">
           <div style="background:#93c5fd; padding:10px 15px; border-radius:8px; font-weight:bold; color:white;">QF3 Winner</div>
           <div style="background:#93c5fd; padding:10px 15px; border-radius:8px; font-weight:bold; color:white;">QF4 Winner</div>
         </div>
-        <div style="margin:5px 0; font-size:1.2rem;">➡️</div>
-        <div style="background:#60a5fa; padding:10px 15px; border-radius:8px; font-weight:bold; color:white;">SF2 Winner</div>
-      </div>
-    </div>
 
-    <!-- Final -->
-    <div class="round" style="display:flex; flex-direction:column; gap:250px; align-items:center;">
-      <div class="match" style="text-align:center;">
-        <div class="teams" style="display:flex; flex-direction:column; gap:5px;">
+        <!-- SF Arrow Column -->
+        <div class="arrows" style="display:flex; flex-direction:column; justify-content:space-between; gap:120px; font-size:1.5rem; text-align:center;">
+          <div>➡️</div>
+          <div>➡️</div>
+        </div>
+
+        <!-- SF Winners Column -->
+        <div class="sf-winners" style="display:flex; flex-direction:column; gap:120px; align-items:center;">
           <div style="background:#60a5fa; padding:10px 15px; border-radius:8px; font-weight:bold; color:white;">SF1 Winner</div>
           <div style="background:#60a5fa; padding:10px 15px; border-radius:8px; font-weight:bold; color:white;">SF2 Winner</div>
         </div>
-        <div style="margin:5px 0; font-size:1.2rem;">➡️</div>
-        <div style="background:#facc15; padding:10px 15px; border-radius:12px; font-weight:bold; color:white;">🏆 Champion</div>
+
+        <!-- Final Arrow Column -->
+        <div class="arrow-final" style="display:flex; flex-direction:column; justify-content:center; font-size:1.5rem; text-align:center;">
+          <div style="margin-top:60px;">➡️</div>
+        </div>
+
+        <!-- Champion Column -->
+        <div class="champion" style="display:flex; flex-direction:column; justify-content:center; text-align:center;">
+          <div style="background:#facc15; padding:15px 20px; border-radius:12px; font-weight:bold; color:white;">🏆 Champion</div>
+        </div>
+
       </div>
     </div>
 
-  </div>
-    </div>
   </section>
 
   <section id="rules" data-aos="fade-up">
@@ -356,9 +363,8 @@
 
   <section id="contact" data-aos="fade-up">
     <h2>Contact</h2>
-    <p>Organizer: Brother Ishtiaq</p>
+    <p>Organizer: Brother Ishtiaq Tarar</p>
     <p>Email: abc@jobc.com</p>
-    <a class="btn" href="https://chat.whatsapp.com/YOUR-LINK" target="_blank">Join WhatsApp Group</a>
   </section>
 
   <footer>
