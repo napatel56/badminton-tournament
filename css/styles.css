@@ -69,97 +69,37 @@ tbody tr:hover {
   margin-right: auto;
 }
 /* Bracket styling */
-.bracket {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-}
-
-/* Each round column */
-.round {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 30px;
-  position: relative;
-}
-
-/* Match card */
-.match {
-  background:white;
-  border:2px solid #1e3a8a;
-  border-radius:10px;
+.bracket-flow .match {
+  display:flex;
+  flex-direction:column;
+  align-items:center;
   text-align:center;
-  padding:10px;
-  min-width:140px;
-  position:relative;
 }
 
-/* Teams and winner styling */
-.team {
-  padding:6px;
+.bracket-flow .teams {
+  display:flex;
+  flex-direction:column;
+  gap:5px;
+  background:#dbeafe;
+  border-radius:10px;
+  padding:5px 10px;
+  min-width:120px;
   font-weight:bold;
   color:#1e40af;
-  border-bottom:1px solid #ccc;
-}
-.team:last-child {
-  border-bottom:none;
-}
-.winner {
-  margin-top:6px;
-  font-size:0.9rem;
-  font-style:italic;
-  color:#555;
 }
 
-/* Connecting lines: QF → SF */
-.round.qf .match::after {
-  content:'';
-  position:absolute;
-  top:50%;
-  right:-50px;
-  width:50px;
-  height:2px;
-  background:#1e3a8a;
+.bracket-flow .winner {
+  background:#fef9c3;
+  border-radius:10px;
+  padding:5px 10px;
+  margin-top:5px;
+  font-weight:bold;
+  color:#b45309;
 }
-.round.sf .match::after {
-  content:'';
-  position:absolute;
-  top:50%;
-  right:-50px;
-  width:50px;
-  height:2px;
-  background:#1e3a8a;
-}
-.round.qf .match:nth-child(odd)::after {
-  top:50%;
-}
-.round.qf .match:nth-child(even)::after {
-  top:-50%;
-}
-.round.final .match::after { display:none; }
 
-/* Vertical connectors */
-.round.qf .match:nth-child(odd)::before,
-.round.sf .match:nth-child(odd)::before {
-  content:'';
-  position:absolute;
-  width:2px;
-  height:50%;
-  left:100%;
-  top:0;
-  background:#1e3a8a;
-}
-.round.qf .match:nth-child(even)::before,
-.round.sf .match:nth-child(even)::before {
-  content:'';
-  position:absolute;
-  width:2px;
-  height:50%;
-  left:100%;
-  bottom:0;
-  background:#1e3a8a;
+.bracket-flow .arrow {
+  font-size:1.5rem;
+  margin:5px 0;
 }
 
 
