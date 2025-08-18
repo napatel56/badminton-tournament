@@ -94,19 +94,26 @@
   
 </head>
 <body>
-  <header>
-    <h1>🏸 MCCR-NCR Annual Badminton Tournament</h1>
-    <p>Skill. Brotherhood. Barakah.</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#format">Format</a>
-      <a href="#rules">Rules</a>
-      <a href="#groups">Groups</a>
-      <a href="#receipts">Receipts</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header style="background:#1e3a8a; color:white; padding:10px; display:flex; justify-content:space-between; align-items:center;">
+    <h1 style="font-size:1.2rem; margin:0;">🏸 MCCR-NCR Annual Badminton Tournament</h1>
+    <button id="menu-btn" style="background:none; border:none; color:white; font-size:1.5rem; cursor:pointer;">☰</button>
   </header>
 
+  <nav id="mobile-menu" style="display:none; background:#1e3a8a; padding:10px;">
+    <a href="#about" style="color:white; display:block; padding:8px;">About</a>
+    <a href="#teams" style="color:white; display:block; padding:8px;">Teams</a>
+    <a href="#rules" style="color:white; display:block; padding:8px;">Rules</a>
+    <a href="#contact" style="color:white; display:block; padding:8px;">Contact</a>
+  </nav>
+
+  <script>
+    const btn = document.getElementById('menu-btn');
+    const menu = document.getElementById('mobile-menu');
+    btn.addEventListener('click', () => {
+      menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    });
+  </script>
+  
   <section id="about" data-aos="fade-up" style="padding: 3rem 1rem; background: linear-gradient(135deg, #f8fafc, #eef2ff);">
     <div style="max-width: 1100px; margin: auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
       
