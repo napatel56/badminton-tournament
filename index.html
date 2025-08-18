@@ -94,15 +94,24 @@
   
 </head>
 <body>
-  <header style="background:#1e3a8a; color:white; padding:10px; display:flex; justify-content:space-between; align-items:center;">
-    <h1 style="font-size:1.2rem; margin:0;">🏸 MCCR-NCR Annual Badminton Tournament</h1>
-    <button id="menu-btn" style="background:none; border:none; color:white; font-size:1.5rem; cursor:pointer;">☰</button>
+  <header style="position:relative; background:#1e3a8a; color:white; padding:10px; text-align:center;">
+    <h1 style="font-size:1.2rem; margin:0;">🏸 MCCR-NCR Badminton Tournament 2025</h1>
+    <p style="margin:4px 0 0; font-size:0.9rem; font-style:italic; opacity:0.9;">
+    "Smash. Rally. Conquer. — Celebrating Community Through Sport"
+    </p>
+    <button id="menu-btn" 
+            style="position:absolute; right:10px; top:50%; transform:translateY(-50%); 
+                  background:none; border:none; color:white; font-size:1.5rem; cursor:pointer;">
+      ☰
+    </button>
   </header>
 
   <nav id="mobile-menu" style="display:none; background:#1e3a8a; padding:10px;">
     <a href="#about" style="color:white; display:block; padding:8px;">About</a>
-    <a href="#teams" style="color:white; display:block; padding:8px;">Teams</a>
+    <a href="#format" style="color:white; display:block; padding:8px;">Format</a>
     <a href="#rules" style="color:white; display:block; padding:8px;">Rules</a>
+    <a href="#groups" style="color:white; display:block; padding:8px;">Groups</a>
+    <a href="#receipts" style="color:white; display:block; padding:8px;">Receipts</a>
     <a href="#contact" style="color:white; display:block; padding:8px;">Contact</a>
   </nav>
 
@@ -113,7 +122,7 @@
       menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
     });
   </script>
-  
+
   <section id="about" data-aos="fade-up" style="padding: 3rem 1rem; background: linear-gradient(135deg, #f8fafc, #eef2ff);">
     <div style="max-width: 1100px; margin: auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
       
