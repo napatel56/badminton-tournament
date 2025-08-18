@@ -95,13 +95,13 @@
 </head>
 <body>
   <header>
-    <h1>🏸 MCCR-NCR Annual Badminton Tournament 2025</h1>
+    <h1>🏸 MCCR-NCR Annual Badminton Tournament</h1>
     <p>Skill. Brotherhood. Barakah.</p>
     <nav>
       <a href="#about">About</a>
       <a href="#format">Format</a>
       <a href="#rules">Rules</a>
-      <a href="#groups">Group Stage</a>
+      <a href="#groups">Groups</a>
       <a href="#receipts">Receipts</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -134,7 +134,7 @@
           <li>🚿 Refreshments</li>
           <li>📑 Administrative Costs</li>
         </ul>
-        <p style="margin-top: 1rem; font-size: 0.9rem; color:#444;"><strong>Note:</strong> Trophies/medals are <em>separately sponsored</em>.</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem; color:#444;"><strong>Note:</strong> 🏆 Trophies and medals are <em>separately sponsored</em> and are <u>not funded from the registration fee.</u></p>
       </div>
 
       <!-- Registration Card -->
@@ -254,7 +254,9 @@
 
             tableHTML += `</tbody></table>`;
 
+            // Wrap each table in a div with margin-bottom for spacing
             const div = document.createElement('div');
+            div.style.marginBottom = "20px";  // <-- add spacing between tables
             div.innerHTML = tableHTML;
             container.appendChild(div);
           });
@@ -262,7 +264,7 @@
         .catch(err => console.error('Error loading groups.json:', err));
     });
   </script>
-
+  
   <section id="receipts" data-aos="fade-up" style="padding: 3rem 1rem; background: linear-gradient(135deg, #f8fafc, #eef2ff);">
     <h2>Financial Transparency</h2>
     <p>All expenses and receipts will be shared publicly below to ensure full transparency. Updated regularly.</p>
