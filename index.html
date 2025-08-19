@@ -127,13 +127,29 @@
     });
   </script>
 
-  <section id="about" data-aos="fade-up" style="padding: 3rem 1rem; background: linear-gradient(135deg, #f8fafc, #eef2ff);">
-    <img src="images/poster-xs.jpg" alt="Knockout bracket">
+  <section id="about" data-aos="fade-up">
+    <!-- Thumbnail -->
+    <a href="#poster-lightbox">
+      <img src="poster-xs.jpg" alt="Tournament Poster">
+    </a>
+    
+    <div style="background: white; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); padding: 1.5rem;">
+        <h2 style="color:#1e3a8a; margin-bottom: 1rem;">💰 Registration Fee Breakdown</h2>
+        <p style="margin-bottom: 1rem;">Your $30 entry fee is fully transparent and aligned with Islamic principles:</p>
+        <ul style="list-style: none; padding: 0; line-height: 1.8;">
+          <li>🏸 Gym Rental and Equipment Setup</li>
+          <li>📋 Logistics - Birdie fees</li>
+          <li>🚿 Refreshments</li>
+          <li>📑 Administrative Costs</li>
+        </ul>
+        <p style="margin-top: 1rem; font-size: 0.9rem; color:#444;"><strong>Note:</strong> 🏆 Trophies and medals are <em>separately sponsored</em> and are <u>not funded from the registration fee.</u></p>
+      </div>
+    </div>
 
-    <div style="max-width: 1100px; margin: auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+    <!--<div style="max-width: 1100px; margin: auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
       
 
-      <!-- Fee Info Card -->
+      Fee Info Card 
       <div style="background: white; border-radius: 16px; box-shadow: 0 4px 12px rgba(0,0,0,0.08); padding: 1.5rem;">
         <h2 style="color:#1e3a8a; margin-bottom: 1rem;">💰 Registration Fee Breakdown</h2>
         <p style="margin-bottom: 1rem;">Your $30 entry fee is fully transparent and aligned with Islamic principles:</p>
@@ -146,7 +162,13 @@
         <p style="margin-top: 1rem; font-size: 0.9rem; color:#444;"><strong>Note:</strong> 🏆 Trophies and medals are <em>separately sponsored</em> and are <u>not funded from the registration fee.</u></p>
       </div>
     </div>
+  -->
   </section>
+  <!-- Lightbox Popup -->
+  <div id="poster-lightbox" class="lightbox">
+    <a href="#" class="close">&times;</a>
+    <img src="poster-xs.jpg" alt="Tournament Poster Fullscreen">
+  </div>
 
   <section id="format" data-aos="fade-up" style="padding: 3rem 1rem; background: linear-gradient(135deg, #f8fafc, #eef2ff);">
     <!-- Wrapper Flexbox -->
