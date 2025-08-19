@@ -9,6 +9,22 @@ h1 {
   text-align: center;
   margin-bottom: 2rem;
 }
+
+/* Ensure all images fit within container */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+  object-fit: contain;
+}
+
+section img {
+  width: 100%;
+  max-height: 90vh; /* Keeps image inside screen height */
+  object-fit: contain;
+}
+
 .tabs {
   display: flex;
   justify-content: center;
