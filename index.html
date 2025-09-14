@@ -272,7 +272,6 @@
       <li>🔄 Substitutions allowed only during group stage in case of injury. No subs in playoffs.</li>
     </ol>
   </section>
-  <!--
   <section id="groups" data-aos="fade-up" style="padding: 3rem 1rem; background: linear-gradient(135deg, #f8fafc, #eef2ff);">
     <h2 style="text-align:center; margin-bottom:20px;">Tournament Groups</h2>
     <div id="tables-container"></div>
@@ -292,8 +291,8 @@
                   </tr>
                   <tr style="background:#dbeafe;">
                     <th style="padding:8px; border-bottom:1px solid #ccc;">Group Prefix</th>
-                    <th style="padding:8px; border-bottom:1px solid #ccc;">Team</th>
-                    <th style="padding:8px; border-bottom:1px solid #ccc;">Masjid / Organization</th>
+                    <th style="padding:8px; border-bottom:1px solid #ccc;">Team - Players</th>
+                    <th style="padding:8px; border-bottom:1px solid #ccc;">Islamic Organization / Masjid Name</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -321,8 +320,60 @@
         .catch(err => console.error('Error loading groups.json:', err));
     });
   </script>
-  -->
-  
+  <section id="schedule" data-aos="fade-up" style="padding: 3rem 1rem; background: linear-gradient(135deg, #f8fafc, #eef2ff);">
+    <h2 style="text-align:center; margin-bottom:20px;">Match Schedule</h2>
+    <div id="schedule-container"></div>
+  </section>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const files = ["data/court_1.json", "data/court_2.json"];
+      const container = document.getElementById('schedule-container');
+
+      Promise.all(files.map(file => fetch(file).then(res => res.json())))
+        .then(results => {
+          results.forEach(data => {
+            const courtName = Object.keys(data)[0];
+            const games = data[courtName];
+
+            let tableHTML = `
+              <table style="width:100%; border-collapse:collapse; background:white; border-radius:10px; overflow:hidden; box-shadow:0 4px 8px rgba(0,0,0,0.05);">
+                <thead>
+                  <tr style="background:#1e3a8a; color:white;">
+                    <th colspan="4" style="padding:10px; text-align:center;">${courtName}</th>
+                  </tr>
+                  <tr style="background:#dbeafe;">
+                    <th style="padding:8px; border-bottom:1px solid #ccc;">Game No</th>
+                    <th style="padding:8px; border-bottom:1px solid #ccc;">Teams</th>
+                    <th style="padding:8px; border-bottom:1px solid #ccc;">Date & Time</th>
+                    <th style="padding:8px; border-bottom:1px solid #ccc;">Referee</th>
+                  </tr>
+                </thead>
+                <tbody>
+            `;
+
+            games.forEach(game => {
+              tableHTML += `
+                <tr>
+                  <td style="padding:8px; border-bottom:1px solid #eee; text-align:center;">${game.game_no}</td>
+                  <td style="padding:8px; border-bottom:1px solid #eee;">${game.teams}</td>
+                  <td style="padding:8px; border-bottom:1px solid #eee; text-align:center;">${game.date_time}</td>
+                  <td style="padding:8px; border-bottom:1px solid #eee; text-align:center;">${game.refree || '-'}</td>
+                </tr>
+              `;
+            });
+
+            tableHTML += `</tbody></table>`;
+
+            // Wrap each table in a div with spacing
+            const div = document.createElement('div');
+            div.style.marginBottom = "20px";
+            div.innerHTML = tableHTML;
+            container.appendChild(div);
+          });
+        })
+        .catch(err => console.error('Error loading schedule JSON:', err));
+    });
+  </script>
   <footer>
     <p>&copy; 2025 MCCR-NCR Badminton Tournament. All rights reserved.</p>
   </footer>
