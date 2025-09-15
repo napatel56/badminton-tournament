@@ -2,111 +2,111 @@
     "Court#1": 
         [
            {
-               "game_no": "Game #1",
+               "game_no": "Game#1",
                "teams": "A2 Vs A3",
-               "date_time": "Sept 27 @ 2.15 PM",
+               "date_time": "2.15 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #3",
+               "game_no": "Game#3",
                "teams": "B2 Vs B3",
-               "date_time": "Sept 27 @ 2.30 PM",
+               "date_time": "2.30 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #5",
+               "game_no": "Game#5",
                "teams": "C1 Vs C4",
-               "date_time": "Sept 27 @ 2.45 PM",
+               "date_time": "2.45 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #7",
+               "game_no": "Game#7",
                "teams": "A1 Vs A4",
-               "date_time": "Sept 27 @ 3.00 PM", 
+               "date_time": "3.00 PM", 
                "refree": ""                
            },
            {
-               "game_no": "Game #9",
+               "game_no": "Game#9",
                "teams": "C2 Vs C3",
-               "date_time": "Sept 27 @ 3.15 PM",
+               "date_time": "3.15 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #11",
+               "game_no": "Game#11",
                "teams": "B1 v/s B4",
-               "date_time": "Sept 27 @ 3.30 PM",
+               "date_time": "3.30 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #13",
+               "game_no": "Game#13",
                "teams": "A1 v/s A3",
-               "date_time": "Sept 27 @ 3.45 PM", 
+               "date_time": "3.45 PM", 
                "refree": ""                
            },
            {
-               "game_no": "Game #15",
+               "game_no": "Game#15",
                "teams": "B2 v/s B4",
-               "date_time": "Sept 27 @ 4.00 PM",
+               "date_time": "4.00 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #17",
+               "game_no": "Game#17",
                "teams": "C1 Vs C3",
-               "date_time": "Sept 27 @ 4.15 PM",
+               "date_time": "4.15 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #19",
+               "game_no": "Game#19",
                "teams": "A2 Vs A4",
-               "date_time": "Sept 27 @ 4.30 PM",
+               "date_time": "4.30 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #21",
+               "game_no": "Game#21",
                "teams": "B1 Vs B3",
-               "date_time": "Sept 27 @ 4.45 PM",
+               "date_time": "4.45 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #23",
+               "game_no": "Game#23",
                "teams": "C2 Vs C4",
-               "date_time": "Sept 27 @ 5.00 PM",
+               "date_time": "5.00 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #25",
+               "game_no": "Game#25",
                "teams": "A1 Vs A2",
-               "date_time": "Sept 27 @ 5.30 PM",
+               "date_time": "5.30 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #27",
+               "game_no": "Game#27",
                "teams": "B1 Vs B2",
-               "date_time": "Sept 27 @ 5.45 PM",
+               "date_time": "5.45 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #29",
+               "game_no": "Game#29",
                "teams": "C1 Vs C2",
-               "date_time": "Sept 27 @ 6.00 PM",
+               "date_time": "6.00 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #31",
+               "game_no": "Game#31",
                "teams": "A3 Vs A4",
-               "date_time": "Sept 28 @ 6.15 PM",
+               "date_time": "6.15 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #33",
+               "game_no": "Game#33",
                "teams": "B3 Vs B4",
-               "date_time": "Sept 28 @ 6.30 PM",
+               "date_time": "6.30 PM",
                "refree": ""                
            },
            {
-               "game_no": "Game #34",
+               "game_no": "Game#34",
                "teams": "C3 Vs C4",
-               "date_time": "Sept 28 @ 6.45 PM",
+               "date_time": "6.45 PM",
                "refree": ""                
            }
     ]
