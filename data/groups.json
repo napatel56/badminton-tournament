@@ -2,37 +2,38 @@
   "Group A": [
     { "prefix": "A1", "team": "Shahbaz Ghazi & Asim Abbasi", "org": "JOBC - Jami Omar" },
     { "prefix": "A2", "team": "Asif Ali & Umair Aslam", "org": "CanPak - Jami Omar" },
-    { "prefix": "A3", "team": "Zayan Rashid & Maheem Islam", "org": "BIC" },
-    { "prefix": "A4", "team": "Abdul Wasey Matin & Abdur Rafey Matin", "org": "KMA" }
+    { "prefix": "A3", "team": "Adeel & Basit", "org": "Masjid Bilal" },
+    { "prefix": "A4", "team": "Zayan Rashid & Maheem Islam", "org": "BIC" }
   ],
   "Group B": [
     { "prefix": "B1", "team": "Khaled Rashid & Tareq Rashid", "org": "BIC" },
-    { "prefix": "B2", "team": "Ahmed Moeed Aslam, Usman Zia", "org": "CanPak - Jami Omar" },
-    { "prefix": "B3", "team": "Adeel & Basit", "org": "Masjid Bilal" },
+    { "prefix": "B2", "team": "Faisal Abdul Sattar & Mujib Haq", "org": "JOBC - Jami Omar" },
+    { "prefix": "B3", "team": "Fawad & Waqas", "org": "CanPak - Jami Omar" },
     { "prefix": "B4", "team": "Sherif Awad & Asharfi Gulam", "org": "KMA" }
   ],
   "Group C": [
     { "prefix": "C1", "team": "Ghazanfar Qureshi & Ziad Jaber", "org": "JOBC - Jami Omar" },
     { "prefix": "C2", "team": "Muaawia & Ali", "org": "Jami Omar Masjid" },
     { "prefix": "C3", "team": "Nazrul & Safat", "org": "Royal Ottawa Sports" },
-    { "prefix": "C4", "team": "Muhammad Adnan Shereen & Arslan Shahid", "org": "CanPak - Jami Omar" }
+    { "prefix": "C4", "team": "Shoaib & Asmat Khan", "org": "CanPak - Jami Omar" }
+    
   ],
   "Group D": [
     { "prefix": "D1", "team": "Bilal Sohail & Zulqarnain", "org": "CanPak - Jami Omar" },
     { "prefix": "D2", "team": "Abu Khan & Shakib Rahman", "org": "Royal Ottawa Sports" },
-    { "prefix": "D3", "team": "Shoaib & Anim", "org": "CanPak - Jami Omar" },
-    { "prefix": "D4", "team": "Javed Alam & Asmat khan", "org": "JOBC - Jami Omar" }
+    { "prefix": "D3", "team": "Muhammad Adnan Shereen & Arslan Shahid", "org": "CanPak - Jami Omar" },
+    { "prefix": "D4", "team": "Abdul Wasey Matin & Abdur Rafey Matin", "org": "KMA" }
   ],
   "Group E": [
     { "prefix": "E1", "team": "Khurram & Naseer", "org": "JOBC - Jami Omar" },
-    { "prefix": "E2", "team": "Atif Hameed & Faisal Mamun", "org": "BIC" },
+    { "prefix": "E2", "team": "Ahmed Moeed Aslam, Usman Zia", "org": "CanPak - Jami Omar" },
     { "prefix": "E3", "team": "Humayun & Rafiq", "org": "Royal Ottawa Sports" },
     { "prefix": "E4", "team": "Baseem & Saqib Alavi", "org": "CanPak - Jami Omar" }
   ],
   "Group F": [
-    { "prefix": "F1", "team": "Al-bar & Tanjib", "org": "Royal Ottawa Sports (ROS)" },
-    { "prefix": "F2", "team": "Faisal Abdul Sattar & Mujib Haq", "org": "JOBC - Jami Omar" },
-    { "prefix": "F3", "team": "Fawad & Waqas", "org": "CanPak - Jami Omar" },
+    { "prefix": "F1", "team": "Moeen & Imran ", "org": "JOBC - Jami Omar" },
+    { "prefix": "F2", "team": "Al-bar & Tanjib", "org": "Royal Ottawa Sports (ROS)" },
+    { "prefix": "F3", "team": "Atif Hameed & Faisal Mamun", "org": "BIC" },
     { "prefix": "F4", "team": "Imad Mushtaq & Fahid Amjed", "org": "SNMC" }
   ]
 }
