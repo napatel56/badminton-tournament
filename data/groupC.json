@@ -1,6 +1,6 @@
 [
-  { "team": "Ghazanfar & Ziad", "GamesWon": 0, "TotalPoints": 0, "TotalScores": 0, "Differential": 0 },
-  { "team": "Muaawia & Ali", "GamesWon": 0, "TotalPoints": 0, "TotalScores": 0, "Differential": 0 },
-  { "team": "Nazrul & Safat", "GamesWon": 0, "TotalPoints": 0, "TotalScores": 0, "Differential": 0 },
-  { "team": "Shoaib & Asmat", "GamesWon": 0, "TotalPoints": 0, "TotalScores": 0, "Differential": 0 }
+  { "team": "Ghazanfar & Ziad", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
+  { "team": "Muaawia & Ali", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
+  { "team": "Nazrul & Safat", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
+  { "team": "Shoaib & Asmat", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 }
 ]

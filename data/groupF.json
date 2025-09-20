@@ -1,6 +1,6 @@
 [
-  { "team": "Moeen & Imran", "GamesWon": 0, "TotalPoints": 0, "TotalScores": 0, "Differential": 0 },
-  { "team": "Al-bar & Tanjib", "GamesWon": 0, "TotalPoints": 0, "TotalScores": 0, "Differential": 0 },
-  { "team": "Atif & Faisal", "GamesWon": 0, "TotalPoints": 0, "TotalScores": 0, "Differential": 0 },
-  { "team": "Imad & Fahid", "GamesWon": 0, "TotalPoints": 0, "TotalScores": 0, "Differential": 0 }
+  { "team": "Moeen & Imran", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
+  { "team": "Al-bar & Tanjib", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
+  { "team": "Atif & Faisal", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
+  { "team": "Imad & Fahid", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 }
 ]

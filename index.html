@@ -396,10 +396,10 @@
       <thead>
         <tr>
           <th>Team</th>
-          <th>Games Won</th>
-          <th>Total Points</th>
+          <th>Won</th>
+          <th>Points</th>
           <th>Total Scores</th>
-          <th>Differential</th>
+          <th>Diff.</th>
         </tr>
       </thead>
       <tbody>
@@ -424,12 +424,12 @@
     const response = await fetch(groupLinks[group]);
     const data = await response.json();
 
-    // ✅ Sort: First by TotalPoints DESC, then by Differential DESC
+    // ✅ Sort: First by Points DESC, then by Differential DESC
     data.sort((a, b) => {
-      if (b.TotalPoints !== a.TotalPoints) {
-        return b.TotalPoints - a.TotalPoints;
+      if (b.Points !== a.Points) {
+        return b.Points - a.Points;
       }
-      return b.Differential - a.Differential;
+      return b.Diff - a.Diff;
     });
 
     const tbody = document.querySelector("#standings-table tbody");
@@ -441,10 +441,10 @@
       const tr = document.createElement("tr");
       tr.innerHTML = `
         <td>${row.team}</td>
-        <td>${row.GamesWon}</td>
-        <td>${row.TotalPoints}</td>
+        <td>${row.Won}</td>
+        <td>${row.Points}</td>
         <td>${row.TotalScores}</td>
-        <td>${row.Differential}</td>
+        <td>${row.Diff}</td>
       `;
       tbody.appendChild(tr);
     });

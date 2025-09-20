@@ -1,6 +1,6 @@
 [
-  { "team": "Khaled & Tareq", "GamesWon": 0, "TotalPoints": 0, "TotalScores": 0, "Differential": 0 },
-  { "team": "Faisal & Mujib", "GamesWon": 0, "TotalPoints": 0, "TotalScores": 0, "Differential": 0 },
-  { "team": "Fawad & Waqas", "GamesWon": 0, "TotalPoints": 0, "TotalScores": 0, "Differential": 0 },
-  { "team": "Sherif & Asharfi", "GamesWon": 0, "TotalPoints": 0, "TotalScores": 0, "Differential": 0 }
+  { "team": "Khaled & Tareq", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
+  { "team": "Faisal & Mujib", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
+  { "team": "Fawad & Waqas", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
+  { "team": "Sherif & Asharfi", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 }
 ]
