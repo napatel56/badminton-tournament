@@ -392,20 +392,22 @@
     </div>
 
     <!-- Standings table -->
-    <table id="standings-table" border="1" cellspacing="0" cellpadding="5">
-      <thead>
-        <tr>
-          <th>Team</th>
-          <th>Won</th>
-          <th>Points</th>
-          <th>Total Scores</th>
-          <th>Diff.</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Filled by JavaScript -->
-      </tbody>
-    </table>
+    <div class="table-container">
+      <table id="standings-table" border="1" cellspacing="0" cellpadding="5">
+        <thead>
+          <tr>
+            <th>Team</th>
+            <th>Games Won</th>
+            <th>Total Points</th>
+            <th>Total Scores</th>
+            <th>Diff.</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Filled by JavaScript -->
+        </tbody>
+      </table>
+    </div>
   </section>
   <script>
   // JSON links for each group
@@ -457,6 +459,28 @@
     #standings {
       text-align: center;
       margin-top: 30px;
+    }
+
+    .table-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    #standings-table {
+      border-collapse: collapse;
+      width: 70%;
+      max-width: 800px;
+      text-align: center;
+    }
+
+    #standings-table th, 
+    #standings-table td {
+      border: 1px solid #444;
+      padding: 8px;
+    }
+
+    #standings-table th {
+      background-color: #f2f2f2;
     }
 
     .tab-btn {
