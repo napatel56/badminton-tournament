@@ -375,27 +375,20 @@
         .catch(err => console.error('Error loading schedule JSON:', err));
     });
   </script>
-  <!-- Tabs -->
-  <div style="text-align:center; margin-bottom:20px;">
-    <button class="tab-btn" onclick="loadGroup('A')">Group A</button>
-    <button class="tab-btn" onclick="loadGroup('B')">Group B</button>
-    <button class="tab-btn" onclick="loadGroup('C')">Group C</button>
-    <button class="tab-btn" onclick="loadGroup('D')">Group D</button>
-    <button class="tab-btn" onclick="loadGroup('E')">Group E</button>
-    <button class="tab-btn" onclick="loadGroup('F')">Group F</button>
-  </div>
+  
 
   <section id="standings">
-    <h2 id="group-title">Group A Standings</h2>
+    <h2 id="group-title" style="font-size: 1.8em;margin-bottom: 15px;">Group A Standings</h2>
 
     <!-- Navigation buttons -->
-    <div id="group-nav">
-      <button onclick="loadGroup('A')">Group A</button>
-      <button onclick="loadGroup('B')">Group B</button>
-      <button onclick="loadGroup('C')">Group C</button>
-      <button onclick="loadGroup('D')">Group D</button>
-      <button onclick="loadGroup('E')">Group E</button>
-      <button onclick="loadGroup('F')">Group F</button>
+    <!-- Tabs -->
+    <div style="margin-bottom:20px;">
+      <button class="tab-btn" onclick="loadGroup('A')">Group A</button>
+      <button class="tab-btn" onclick="loadGroup('B')">Group B</button>
+      <button class="tab-btn" onclick="loadGroup('C')">Group C</button>
+      <button class="tab-btn" onclick="loadGroup('D')">Group D</button>
+      <button class="tab-btn" onclick="loadGroup('E')">Group E</button>
+      <button class="tab-btn" onclick="loadGroup('F')">Group F</button>
     </div>
 
     <!-- Standings table -->
@@ -461,6 +454,11 @@
   loadGroup("A");
 </script>
   <style>
+    #standings {
+      text-align: center;
+      margin-top: 30px;
+    }
+
     .tab-btn {
       margin: 5px;
       padding: 10px 15px;
