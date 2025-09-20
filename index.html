@@ -122,6 +122,7 @@
     <a href="#rules" style="color:white; display:block; padding:8px;">Rules</a>
     <a href="#groups" style="color:white; display:block; padding:8px;">Groups</a>
     <a href="#schedule" style="color:white; display:block; padding:8px;">Schedule</a>
+    <a href="#standings" style="color:white; display:block; padding:8px;">Standings</a>
   </nav>
 
   <script>
@@ -406,45 +407,103 @@
     </div>
   </section>
 
+  <section id="standings">
+    <h2 id="group-title">Group A Standings</h2>
+
+    <!-- Navigation buttons -->
+    <div id="group-nav">
+      <button onclick="loadGroup('A')">Group A</button>
+      <button onclick="loadGroup('B')">Group B</button>
+      <button onclick="loadGroup('C')">Group C</button>
+      <button onclick="loadGroup('D')">Group D</button>
+      <button onclick="loadGroup('E')">Group E</button>
+      <button onclick="loadGroup('F')">Group F</button>
+    </div>
+
+    <!-- Standings table -->
+    <table id="standings-table" border="1" cellspacing="0" cellpadding="5">
+      <thead>
+        <tr>
+          <th>Team</th>
+          <th>Games Won</th>
+          <th>Total Points</th>
+          <th>Total Scores</th>
+          <th>Differential</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Filled by JavaScript -->
+      </tbody>
+    </table>
+  </section>
+
+  <section id="standings">
+    <h2 id="group-title">Group A Standings</h2>
+
+    <!-- Navigation buttons -->
+    <div id="group-nav">
+      <button onclick="loadGroup('A')">Group A</button>
+      <button onclick="loadGroup('B')">Group B</button>
+      <button onclick="loadGroup('C')">Group C</button>
+      <button onclick="loadGroup('D')">Group D</button>
+      <button onclick="loadGroup('E')">Group E</button>
+      <button onclick="loadGroup('F')">Group F</button>
+    </div>
+
+    <!-- Standings table -->
+    <table id="standings-table" border="1" cellspacing="0" cellpadding="5">
+      <thead>
+        <tr>
+          <th>Team</th>
+          <th>Games Won</th>
+          <th>Total Points</th>
+          <th>Total Scores</th>
+          <th>Differential</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Filled by JavaScript -->
+      </tbody>
+    </table>
+  </section>
   <script>
-    // JSON links for each group (replace with your own hosted JSON files)
-    const groupLinks = {
-      A: "groupA.json",
-      B: "groupB.json",
-      C: "groupC.json",
-      D: "groupD.json",
-      E: "groupE.json",
-      F: "groupF.json"
-    };
+  // JSON links for each group
+  const groupLinks = {
+    A: "data/groupA.json",
+    B: "data/groupB.json",
+    C: "data/groupC.json",
+    D: "data/groupD.json",
+    E: "data/groupE.json",
+    F: "data/groupF.json"
+  };
 
-    async function loadGroup(group) {
-      document.getElementById("group-title").textContent = `Group ${group} Standings`;
+  async function loadGroup(group) {
+    document.getElementById("group-title").textContent = `Group ${group} Standings`;
 
-      const response = await fetch(groupLinks[group]);
-      const data = await response.json();
+    const response = await fetch(groupLinks[group]);
+    const data = await response.json();
 
-      const tbody = document.querySelector("#standings-table tbody");
-      tbody.innerHTML = "";
+    const tbody = document.querySelector("#standings-table tbody");
+    tbody.innerHTML = "";
 
-      data.forEach(row => {
-        if (!row.Team) return; // skip blanks
-        const tr = document.createElement("tr");
-        tr.innerHTML = `
-          <td>${row.Team}</td>
-          <td>${row.GamesWon}</td>
-          <td>${row.TotalPoints}</td>
-          <td>${row.TotalScores}</td>
-          <td>${row.Differential}</td>
-        `;
-        tbody.appendChild(tr);
-      });
-    }
+    data.forEach(row => {
+      // Your JSON uses "team" (lowercase) instead of "Team"
+      if (!row.team) return; 
+      const tr = document.createElement("tr");
+      tr.innerHTML = `
+        <td>${row.team}</td>
+        <td>${row.GamesWon}</td>
+        <td>${row.TotalPoints}</td>
+        <td>${row.TotalScores}</td>
+        <td>${row.Differential}</td>
+      `;
+      tbody.appendChild(tr);
+    });
+  }
 
   // Load Group A by default
-    loadGroup("A");
-  </script>
-
-
+  loadGroup("A");
+</script>
   <style>
     .tab-btn {
       margin: 5px;
