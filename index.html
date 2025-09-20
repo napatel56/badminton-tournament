@@ -374,6 +374,93 @@
         .catch(err => console.error('Error loading schedule JSON:', err));
     });
   </script>
+  <!-- Tabs -->
+  <div style="text-align:center; margin-bottom:20px;">
+    <button class="tab-btn" onclick="loadGroup('A')">Group A</button>
+    <button class="tab-btn" onclick="loadGroup('B')">Group B</button>
+    <button class="tab-btn" onclick="loadGroup('C')">Group C</button>
+    <button class="tab-btn" onclick="loadGroup('D')">Group D</button>
+    <button class="tab-btn" onclick="loadGroup('E')">Group E</button>
+    <button class="tab-btn" onclick="loadGroup('F')">Group F</button>
+  </div>
+
+  <!-- Table -->
+  <section id="group-table" style="padding: 2rem; background: #f8fafc;">
+    <h2 id="group-title" style="text-align:center; margin-bottom:20px;">Group A Standings</h2>
+    <div style="overflow-x:auto;">
+      <table id="standings-table" style="width:100%; border-collapse:collapse; text-align:center; font-size:14px;">
+        <thead style="background:#eef2ff;">
+          <tr>
+            <th>Team</th>
+            <th>Team Scores</th>
+            <th>Score Against</th>
+            <th>Games Won</th>
+            <th>Total Points</th>
+            <th>Total Scores</th>
+            <th>Scores Against</th>
+            <th>Score Differential</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <script>
+    // JSON links for each group (replace with your own hosted JSON files)
+    const groupLinks = {
+      A: "groupA.json",
+      B: "groupB.json",
+      C: "groupC.json",
+      D: "groupD.json",
+      E: "groupE.json",
+      F: "groupF.json"
+    };
+
+    async function loadGroup(group) {
+      document.getElementById("group-title").textContent = `Group ${group} Standings`;
+
+      const response = await fetch(groupLinks[group]);
+      const data = await response.json();
+
+      const tbody = document.querySelector("#standings-table tbody");
+      tbody.innerHTML = "";
+
+      data.forEach(row => {
+        if (!row.Team) return; // skip blanks
+        const tr = document.createElement("tr");
+        tr.innerHTML = `
+          <td>${row.Team}</td>
+          <td>${row.GamesWon}</td>
+          <td>${row.TotalPoints}</td>
+          <td>${row.TotalScores}</td>
+          <td>${row.Differential}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+  // Load Group A by default
+    loadGroup("A");
+  </script>
+
+
+  <style>
+    .tab-btn {
+      margin: 5px;
+      padding: 10px 15px;
+      border: none;
+      background: #6366f1;
+      color: #fff;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .tab-btn:hover {
+      background: #4f46e5;
+    }
+  </style>
+
   <footer>
     <p>&copy; 2025 MCCR-NCR Badminton Tournament. All rights reserved.</p>
   </footer>
