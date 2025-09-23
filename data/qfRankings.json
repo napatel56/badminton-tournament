@@ -1,10 +1,10 @@
 [
-  { "Team": "", "TotalPoints": 0, "TotalScore": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "TotalScore": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "TotalScore": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "TotalScore": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "TotalScore": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "TotalScore": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "TotalScore": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "TotalScore": 0, "ScoreDiff": 0 }
+  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
+  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
+  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
+  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
+  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
+  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
+  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
+  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 }
 ]
