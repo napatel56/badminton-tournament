@@ -1,6 +1,6 @@
 [
-  { "team": "Khaled & Tareq", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
-  { "team": "Faisal & Mujib", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
-  { "team": "Fawad & Waqas", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
-  { "team": "Sherif & Asharfi", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 }
+  { "team": "Khaled & Tareq", "Won": 3, "Points": 6, "TotalScores": 63, "Diff": 39 },
+  { "team": "Faisal & Mujib", "Won": 2, "Points": 4, "TotalScores": 55, "Diff": 15 },
+  { "team": "Fawad & Waqas", "Won": 1, "Points": 2, "TotalScores": 41, "Diff": -10 },
+  { "team": "Salah & Kashif", "Won": 0, "Points": 0, "TotalScores": 19, "Diff": -44 }
 ]

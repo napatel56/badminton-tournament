@@ -1,6 +1,6 @@
 [
-  { "team": "Khurram & Naseer", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
-  { "team": "Ahmed Moeed, Usman", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
-  { "team": "Humayun & Rafiq", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
-  { "team": "Baseem & Saqib", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 }
+  { "team": "Khurram & Naseer", "Won": 3, "Points": 6, "TotalScores": 63, "Diff": 23 },
+  { "team": "Ahmed Moeed, Usman", "Won": 2, "Points": 4, "TotalScores": 54, "Diff": 14 },
+  { "team": "Humayun & Rafiq", "Won": 1, "Points": 2, "TotalScores": 50, "Diff": -4 },
+  { "team": "Baseem & Saqib", "Won": 0, "Points": 0, "TotalScores": 30, "Diff": -33 }
 ]

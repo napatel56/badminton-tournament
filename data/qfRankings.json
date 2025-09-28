@@ -1,10 +1,10 @@
 [
-  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 },
-  { "Team": "", "TotalPoints": 0, "ScoreDiff": 0 }
+  { "Team": "Bilal & Zulqarnain", "TotalPoints": 6, "ScoreDiff": 43 },
+  { "Team": "Shahbaz & Aqeel", "TotalPoints": 6, "ScoreDiff": 40 },
+  { "Team": "Khalid & Tareq", "TotalPoints": 6, "ScoreDiff": 39 },
+  { "Team": "Khurram & Naseer", "TotalPoints": 6, "ScoreDiff": 23 },
+  { "Team": "Moeen & Imran", "TotalPoints": 6, "ScoreDiff": 20 },
+  { "Team": "Shoaib & Asmat", "TotalPoints": 4, "ScoreDiff": 7 },
+  { "Team": "Faisal & Mujeeb", "TotalPoints": 4, "ScoreDiff": 15 },
+  { "Team": "Ahmed & Usman", "TotalPoints": 4, "ScoreDiff": 4 }
 ]

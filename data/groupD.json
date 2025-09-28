@@ -1,6 +1,6 @@
 [
-  { "team": "Bilal & Zulqarnain", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
-  { "team": "Abu & Shakib", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
-  { "team": "Muhammad Adnan & Arslan", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 },
-  { "team": "Abdul Wasey & Abdur Rafey", "Won": 0, "Points": 0, "TotalScores": 0, "Diff": 0 }
+  { "team": "Bilal & Zulqarnain", "Won": 3, "Points": 6, "TotalScores": 63, "Diff": 43 },
+  { "team": "Abu & Shakib", "Won": 2, "Points": 4, "TotalScores": 49, "Diff": 2 },
+  { "team": "Muhammad Adnan & Arslan", "Won": 1, "Points": 2, "TotalScores": 37, "Diff": -17 },
+  { "team": "Abdul Wasey & Abdur Rafey", "Won": 0, "Points": 0, "TotalScores": 35, "Diff": -28 }
 ]
